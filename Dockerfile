@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8080
 
-ENTRYPOINT ["node", "app.js"]
+ENTRYPOINT ["node", "app.js", "-p", "8080"]
